@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SoftBody2D;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Slime : MonoBehaviour
 {
+    public GameObject[] AllSlimesPrefabs;
     public SlimeType SlimeType;
     public GameObject[] SlimeColliders;
     public static Action<Vector2, int> OnSlimeCollision;
@@ -19,10 +21,10 @@ public class Slime : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.layer == 6) {
-            // StopCoroutine(nameof(IncreaseSlimeSize));
-            // StartCoroutine(nameof(IncreaseSlimeSize));
-            IncreaseSlimeSize2();
-            Destroy(other.gameObject);
+            if ((int)SlimeType < 6) {
+                Destroy(other.gameObject);
+            }
+            IncreaseSlimeLevel();
         }
         Slime otherSlime = other.gameObject.GetComponent<Slime>();
         if (otherSlime != null && otherSlime.SlimeType == SlimeType) {
@@ -39,21 +41,16 @@ public class Slime : MonoBehaviour
             OnSlimeTap?.Invoke(gameObject);
         }
     }
-
-    private IEnumerator IncreaseSlimeSize() {
-        Vector3 initSize = transform.localScale;
-        Vector3 targetSize = initSize * 2;
-        while (transform.localScale.x < targetSize.x) {
-            transform.localScale = Vector3.Lerp(transform.localScale, targetSize, Time.deltaTime * IncreaseSizeSpeed);
-            yield return null;
+    private void IncreaseSlimeLevel() {
+        if ((int)SlimeType < 6) {
+            SlimeType += 1;
+            Destroy(gameObject);
+            GameObject slime = Instantiate(AllSlimesPrefabs[(int)SlimeType], transform.position, Quaternion.identity);
+            slime.GetComponent<Slime>().ActivateSlimeColliders();
         }
-    }
-    private void IncreaseSlimeSize2() {
-        Vector3 initSize = transform.localScale;
-        transform.localScale = initSize * 2;
     }
 }
 
 public enum SlimeType {
-    One, Two, Three, Four
+    One, Two, Three, Four, Five, Six, Seven
 }

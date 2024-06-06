@@ -1100,7 +1100,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a7eda884dcae94c97b25fbd026bf441d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1204,6 +1204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 265c103bce27ec34995e8a7ad63d049d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AllSlimesPrefabs:
+  - {fileID: 3262246950295652793, guid: 7efb56feb5dcff646bcea5391e3f30aa, type: 3}
+  - {fileID: 3262246950295652793}
+  - {fileID: 3262246950295652793, guid: 39df24f0a20fcd64a85b587fe0264541, type: 3}
+  - {fileID: 3262246950295652793, guid: b11dea320cc620444b149c95d6996f1a, type: 3}
+  - {fileID: 3262246950295652793, guid: c9907cf8185c9d34c8c90e0ff9ebe9f8, type: 3}
+  - {fileID: 3262246950295652793, guid: c69eaacf5c33c1444b56bf0165ea5664, type: 3}
+  - {fileID: 3262246950295652793, guid: cc3ba82578f6cc542ac7efa3d897b113, type: 3}
   SlimeType: 1
   SlimeColliders:
   - {fileID: 279621284487015103}

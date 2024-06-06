@@ -36,9 +36,4 @@ public class Missle : MonoBehaviour
         BoosterManager.MissleActive = false;
         Destroy(gameObject);
     }
-
-    private void OnDrawGizmos() {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, ExplosionRadius);
-    }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.EventSystems;
 
 public class SlimeManager : MonoBehaviour
 {
@@ -32,7 +33,9 @@ public class SlimeManager : MonoBehaviour
             _currentSpawnDelay -= Time.deltaTime;
         }
         if (Input.GetMouseButtonDown(0)) {
-            MouseDownCallback();
+            if (EventSystem.current.IsPointerOverGameObject() == false) {
+                MouseDownCallback();
+            }
         }
         else if (Input.GetMouseButton(0)) {
             MouseButtonCallback();
