@@ -222,6 +222,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 25475baa5a6c3ac439a7d9e84d84989c, type: 3}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1503591149}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartBoosterClickedSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6492240775262742640, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2006,6 +2018,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335788323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1352119497127380619, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+  m_PrefabInstance: {fileID: 2635104140357204213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1344807383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2259,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: de581884488e43448ad709a808129f98, type: 3}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1503591149}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartBoosterClickedSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6492240775262742640, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2632,6 +2667,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MissleSpawnPos: {fileID: 403181456}
   MisslePrefab: {fileID: 2986822785329931972, guid: 9d985b76aa6f94d44b4e5517f40b6739, type: 3}
+  MissleAmountText: {fileID: 1335788323}
+  MagicStickAmountText: {fileID: 1922081232}
+  IncreaseSizeText: {fileID: 1820263734}
 --- !u!1 &1555320178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,6 +3370,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812776854}
   m_CullTransparentMesh: 1
+--- !u!114 &1820263734 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1352119497127380619, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+  m_PrefabInstance: {fileID: 52080215}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1922081232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1352119497127380619, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+  m_PrefabInstance: {fileID: 1417161975}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2031953187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +3716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Booster holder
       objectReference: {fileID: 0}
+    - target: {fileID: 4219284625927361809, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1503591149}
     - target: {fileID: 6492240775262742640, guid: 0987af6b5919e214da2aa524219ac28d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

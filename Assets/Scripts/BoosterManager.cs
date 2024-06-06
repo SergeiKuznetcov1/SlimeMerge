@@ -1,14 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class BoosterManager : MonoBehaviour
 {
     public Transform MissleSpawnPos;
     public GameObject MisslePrefab;
     public static bool MissleActive = false;
-    public static bool IncreaseSizeActive = false;
+    public static int MissleAmount = 99;
+    public TMP_Text MissleAmountText;
     public static bool MagicStickActive = false;
+    public static int MagicStickAmount = 99;
+    public TMP_Text MagicStickAmountText;
+    public static bool IncreaseSizeActive = false;
+    public static int IncreaseSizeAmount = 99;
+    public TMP_Text IncreaseSizeText;
     private GameObject[] _deleteSlimes = {null, null};
     private int _deleteSlimesInt;
 
@@ -20,17 +26,17 @@ public class BoosterManager : MonoBehaviour
         Slime.OnSlimeTap -= ManageBoosters;
     }
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            MissleActive = true;
-            SlimeManager.BoosterActive = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-            IncreaseSizeActive = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) {
-            MagicStickActive = true;
-            SlimeManager.BoosterActive = true;
-        }
+        // if (Input.GetKeyDown(KeyCode.Alpha1)) {
+        //     MissleActive = true;
+        //     SlimeManager.BoosterActive = true;
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+        //     IncreaseSizeActive = true;
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Alpha3)) {
+        //     MagicStickActive = true;
+        //     SlimeManager.BoosterActive = true;
+        // }
     }
 
     private void ManageBoosters(GameObject tappedSlime) {
@@ -53,8 +59,6 @@ public class BoosterManager : MonoBehaviour
                 Destroy(_deleteSlimes[0]);
                 Destroy(_deleteSlimes[1]);
                 _deleteSlimesInt = 0;
-                // MagicStickActive = false;
-                // SlimeManager.BoosterActive = false;
                 StartCoroutine(nameof(DeactivateMagicStick));
                 return;
             }
@@ -69,7 +73,25 @@ public class BoosterManager : MonoBehaviour
     {
         GameObject missle = Instantiate(MisslePrefab, MissleSpawnPos.position, Quaternion.identity);
         missle.GetComponent<Missle>().Target = target;
-        // SlimeManager.BoosterActive = false;
-        // MissleActive = false;
+    }
+
+    public void StartBoosterClickedSequence(int boosterIndex) {
+        if (boosterIndex == 0) {
+            if (MissleAmount >= 1) {
+                MissleActive = true;
+                SlimeManager.BoosterActive = true;
+            }
+        }
+        if (boosterIndex == 1) {
+            if (MagicStickAmount >= 1) {
+                MagicStickActive = true;
+                SlimeManager.BoosterActive = true;
+            }
+        }
+        if (boosterIndex == 2) {
+            if (IncreaseSizeAmount >= 1) {
+                IncreaseSizeActive = true;
+            }
+        }
     }
 }
