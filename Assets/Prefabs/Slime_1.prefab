@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8118881085572646027}
   - component: {fileID: 7636902375649857164}
   - component: {fileID: 3761671075672719288}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 76041639775124678}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.74043334, y: 1.7814536, z: 0}
+  m_LocalPosition: {x: -0.93, y: 2.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,7 +77,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.74043334, y: 1.7814536}
+  m_ConnectedAnchor: {x: -0.49625242, y: 1.5169244}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 272812488780025885}
   - component: {fileID: 1878224759484688946}
   - component: {fileID: 7431673023755254076}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 137769603909175646}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9232751, y: 0.5803156, z: 0}
+  m_LocalPosition: {x: 2.26, y: 0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -194,7 +194,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.9232751, y: 0.5803156}
+  m_ConnectedAnchor: {x: 1.9824586, y: 0.2252137}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 1500209772001540513}
   - component: {fileID: 4355264502464555801}
   - component: {fileID: 9081948622616878070}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 279621284487015103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0542724, y: -1.6689327, z: 0}
+  m_LocalPosition: {x: 1.08, y: -1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -311,7 +311,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.0542724, y: -1.6689327}
+  m_ConnectedAnchor: {x: 0.89894855, y: -1.3441643}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 8107419571636193582}
   - component: {fileID: 3334608068044585685}
   - component: {fileID: 4189092647213547074}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ Transform:
   m_GameObject: {fileID: 707712763496915896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2341442, y: -1.5737765, z: 0}
+  m_LocalPosition: {x: -1.33, y: -1.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -428,7 +428,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.2341442, y: -1.5737765}
+  m_ConnectedAnchor: {x: -1.0788203, y: -1.2490082}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 95141006514438201}
   - component: {fileID: 3925033020059368329}
   - component: {fileID: 9044248213254132821}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 1666279368363857066}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9681175, y: 1.8118366, z: 0}
+  m_LocalPosition: {x: 0.8, y: 2.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -545,7 +545,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.9681175, y: 1.8118366}
+  m_ConnectedAnchor: {x: 0.70596534, y: 1.5651054}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 2779693256714009255}
   - component: {fileID: 2690776534132075797}
   - component: {fileID: 7199623749211559167}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ Transform:
   m_GameObject: {fileID: 2978698917866020146}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.12266666, y: 1.8399999, z: 0}
+  m_LocalPosition: {x: 0.01, y: 2.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -662,7 +662,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.12266666, y: 1.8399999}
+  m_ConnectedAnchor: {x: 0.12266665, y: 1.4799999}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -735,7 +735,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3907931816164102314}
@@ -766,10 +766,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: 284c8f1d175184349ae43523e98e9425, type: 3}
   Scale: {x: 1, y: 1}
-  SpriteMaterial: {fileID: 0}
+  SpriteMaterial: {fileID: 2100000, guid: a7eda884dcae94c97b25fbd026bf441d, type: 2}
   PixelPerMeter: 100
   SortingLayer: Default
-  SortingOrder: 3
+  SortingOrder: 4
   Density: 3
   Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4482062279136209526
@@ -1120,7 +1120,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &9116662348644513126
 MeshFilter:
@@ -1142,7 +1142,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1164,7 +1164,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3262246950295652793}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1191,7 +1191,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.8
+  m_Radius: 2.14
 --- !u!114 &5169171210638683240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1204,6 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 265c103bce27ec34995e8a7ad63d049d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanEndGame: 0
   AllSlimesPrefabs:
   - {fileID: 3262246950295652793}
   - {fileID: 3262246950295652793, guid: 0c0f9d953cb48c14d9909cfda059defb, type: 3}
@@ -1226,6 +1227,7 @@ MonoBehaviour:
   - {fileID: 7267710365042591206}
   - {fileID: 707712763496915896}
   - {fileID: 8737033920100652960}
+  MainCollider: {fileID: 5393942300996789385}
   IncreaseSizeSpeed: 1
 --- !u!1 &5591947989423964429
 GameObject:
@@ -1239,7 +1241,7 @@ GameObject:
   - component: {fileID: 213184658221584427}
   - component: {fileID: 7435101371921630945}
   - component: {fileID: 2821094599712951120}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1257,7 @@ Transform:
   m_GameObject: {fileID: 5591947989423964429}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0911088, y: -0.0657168, z: 0}
+  m_LocalPosition: {x: -2.27, y: -0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1304,7 +1306,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -2.0911088, y: -0.0657168}
+  m_ConnectedAnchor: {x: -1.828957, y: -0.31244817}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -1356,7 +1358,7 @@ GameObject:
   - component: {fileID: 5241585011645263735}
   - component: {fileID: 3132894954343926029}
   - component: {fileID: 2206012237272062914}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,7 +1374,7 @@ Transform:
   m_GameObject: {fileID: 6604459651330909441}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6864237, y: -0.992836, z: 0}
+  m_LocalPosition: {x: 1.98, y: -1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1421,7 +1423,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.6864237, y: -0.992836}
+  m_ConnectedAnchor: {x: 1.337523, y: -0.90413237}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -1473,7 +1475,7 @@ GameObject:
   - component: {fileID: 178080624337139774}
   - component: {fileID: 1957879100260830693}
   - component: {fileID: 6616305423219276470}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1491,7 @@ Transform:
   m_GameObject: {fileID: 7267710365042591206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6947519, y: -0.804854, z: 0}
+  m_LocalPosition: {x: -1.94, y: -1.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1538,7 +1540,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.6947519, y: -0.804854}
+  m_ConnectedAnchor: {x: -1.3409178, y: -0.7385102}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -1590,7 +1592,7 @@ GameObject:
   - component: {fileID: 6586235609820433784}
   - component: {fileID: 8683730975213572808}
   - component: {fileID: 2683596016959086153}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1606,7 +1608,7 @@ Transform:
   m_GameObject: {fileID: 7349311236460319474}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1072693, y: -0.20549472, z: 0}
+  m_LocalPosition: {x: 2.23, y: -0.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1655,7 +1657,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 2.1072693, y: -0.20549472}
+  m_ConnectedAnchor: {x: 1.8589935, y: -0.4661844}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -1707,7 +1709,7 @@ GameObject:
   - component: {fileID: 1377040038758712576}
   - component: {fileID: 8394835629161071500}
   - component: {fileID: 1570169838863238810}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1723,7 +1725,7 @@ Transform:
   m_GameObject: {fileID: 8632010356178004468}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.396394, y: 1.3408937, z: 0}
+  m_LocalPosition: {x: -1.52, y: 1.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1772,7 +1774,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.396394, y: 1.3408937}
+  m_ConnectedAnchor: {x: -1.0380156, y: 1.375025}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
@@ -1824,7 +1826,7 @@ GameObject:
   - component: {fileID: 6948075426763132979}
   - component: {fileID: 5064411865935220687}
   - component: {fileID: 9048030587749699496}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Joint12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1842,7 @@ Transform:
   m_GameObject: {fileID: 8737033920100652960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.10189765, y: -1.8299999, z: 0}
+  m_LocalPosition: {x: -0.06, y: -2.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1889,7 +1891,7 @@ SpringJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.10189765, y: -1.8299999}
+  m_ConnectedAnchor: {x: -0.10189765, y: -1.4699999}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0.05
