@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
-using YG;
+// using YG;
 
 public class BoosterManager : MonoBehaviour
 {
@@ -35,7 +35,7 @@ public class BoosterManager : MonoBehaviour
     private int _rewardIndex;
 
     private void OnEnable() {
-        YandexGame.CloseVideoEvent += Rewarded;
+        // YandexGame.CloseVideoEvent += Rewarded;
         Missle.OnReduceMissleAmount += HandleReduceMissle;
         Slime.OnSlimeTap += ManageBoosters;
         SlimeManager.OnBoosterEnd += CancelActiveBooster;
@@ -43,7 +43,7 @@ public class BoosterManager : MonoBehaviour
     }
 
     private void OnDisable() {
-        YandexGame.CloseVideoEvent -= Rewarded;
+        // YandexGame.CloseVideoEvent -= Rewarded;
         Missle.OnReduceMissleAmount -= HandleReduceMissle;
         Slime.OnSlimeTap -= ManageBoosters;
         SlimeManager.OnBoosterEnd -= CancelActiveBooster;
@@ -201,17 +201,18 @@ public class BoosterManager : MonoBehaviour
                 if (PlayerPrefs.GetInt("Booster0InfoShowen") == 0) {
                     SaveSystem.SetBoosterShowenInfo(0);
                     InfoAnimator.SetTrigger("ShowInfo");
-                    if (YandexGame.EnvironmentData.language == "ru") {
-                        InfoText.text = "Выбери слайм и запусти ракету!";
-                    }
-                    else {
-                        InfoText.text = "Pick slime and launch rocket!";
-                    }
+                    // if (YandexGame.EnvironmentData.language == "ru") {
+                    //     InfoText.text = "Выбери слайм и запусти ракету!";
+                    // }
+                    // else {
+                    //     InfoText.text = "Pick slime and launch rocket!";
+                    // }
+                    InfoText.text = "Выбери слайм и запусти ракету!";
                 }
             }
             else {
                 _rewardIndex = 0;
-                YandexGame.RewVideoShow(0);
+                // YandexGame.RewVideoShow(0);
             }
         }
         if (boosterIndex == 1) {
@@ -222,17 +223,18 @@ public class BoosterManager : MonoBehaviour
                 if (PlayerPrefs.GetInt("Booster1InfoShowen") == 0) {
                     SaveSystem.SetBoosterShowenInfo(1);
                     InfoAnimator.SetTrigger("ShowInfo");
-                    if (YandexGame.EnvironmentData.language == "ru") {
-                        InfoText.text = "Выбери и удали два разных слайма!";
-                    }
-                    else {
-                        InfoText.text = "Pick and delete two different slimes!";
-                    }
+                    // if (YandexGame.EnvironmentData.language == "ru") {
+                    //     InfoText.text = "Выбери и удали два разных слайма!";
+                    // }
+                    // else {
+                    //     InfoText.text = "Pick and delete two different slimes!";
+                    // }
+                    InfoText.text = "Выбери и удали два разных слайма!";
                 }
             }
             else {
                 _rewardIndex = 1;
-                YandexGame.RewVideoShow(0);
+                // YandexGame.RewVideoShow(0);
             }
         }
         if (boosterIndex == 2) {
@@ -242,17 +244,18 @@ public class BoosterManager : MonoBehaviour
                 if (PlayerPrefs.GetInt("Booster2InfoShowen") == 0) {
                     SaveSystem.SetBoosterShowenInfo(2);
                     InfoAnimator.SetTrigger("ShowInfo");
-                    if (YandexGame.EnvironmentData.language == "ru") {
-                        InfoText.text = "Сбрось шар улучшающий слайм!";
-                    }
-                    else {
-                        InfoText.text = "Drop ball improving slime!";
-                    }
+                    // if (YandexGame.EnvironmentData.language == "ru") {
+                    //     InfoText.text = "Сбрось шар улучшающий слайм!";
+                    // }
+                    // else {
+                    //     InfoText.text = "Drop ball improving slime!";
+                    // }
+                    InfoText.text = "Сбрось шар улучшающий слайм!";
                 }
             }
             else {
                 _rewardIndex = 2;
-                YandexGame.RewVideoShow(0);
+                // YandexGame.RewVideoShow(0);
             }
         }
     }

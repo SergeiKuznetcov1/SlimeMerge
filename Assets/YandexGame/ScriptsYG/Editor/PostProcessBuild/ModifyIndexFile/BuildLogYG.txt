@@ -1,2 +1,0 @@
-Build path: D:/UnityProjects/Unity2D/MergeNew/WebGL
-Build number: 17
